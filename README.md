@@ -1,12 +1,12 @@
 # StarletCompiler
 This is a compiler in a program language, called Starlet.
 
-ΙΝΤΡΟ
+ΙΝΤΡΟ:
 Programming exercise aims to create a compiler. 
 Implementation language is called the programming language in which the compiler is implemented. 
 Python programming language is used in this programming exercise.
 
-ABOUT STARLET
+ABOUT STARLET:
 The Starlet alphabet consists of:
 • the small and capital letters of the Latin alphabet ('A' - 'Z', 'a' - 'z'),
 • the digits ('0' - '9'),
