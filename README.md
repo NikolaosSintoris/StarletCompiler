@@ -1,34 +1,34 @@
 # StarletCompiler
 This is a compiler in a program language, called Starlet.
 
-ΙΝΤΡΟ:
-Programming exercise aims to create a compiler. 
-Implementation language is called the programming language in which the compiler is implemented. 
-Python programming language is used in this programming exercise.
+ΙΝΤΡΟ:  
+Programming exercise aims to create a compiler.  
+Implementation language is called the programming language in which the compiler is implemented.  
+Python programming language is used in this programming exercise.  
 
-ABOUT STARLET:
-The Starlet alphabet consists of:
-• the small and capital letters of the Latin alphabet ('A' - 'Z', 'a' - 'z'),
-• the digits ('0' - '9'),
-• the symbols of the numerical operations ('+', '-', '*', '/'),
-• the correlation operators ('<', '>', '=', '<=', '> =', '<>')
-• the assignment symbol (': ='),
-• separators (';', ',', ':'),
-• the grouping symbols ('(', ')', '[', ']'),
+ABOUT STARLET:  
+The Starlet alphabet consists of:  
+• the small and capital letters of the Latin alphabet ('A' - 'Z', 'a' - 'z')  
+• the digits ('0' - '9')  
+• the symbols of the numerical operations ('+', '-', '*', '/')  
+• the correlation operators ('<', '>', '=', '<=', '> =', '<>')  
+• the assignment symbol (': =')  
+• separators (';', ',', ':')  
+• the grouping symbols ('(', ')', '[',']')  
 • and the comment splitting symbols ('/ *', '* /', '//').
 
-Reserved words:
-• program, endprogram,
-• declaring,
-• if, then, else, endif,
-• while, endwhile, dowhile, enddowhile,
-• loop, endloop, exit,
-• forcase, endforcase, incase, endincase, when, default, enddefault,
-• function, endfunction, return, in, inout, inandout,
-• and, or, not,
-• input, print.
-These words can not be used as variables. 
-The language constants are integral constants consisting of an optional sign and a sequence of numerals.
+Reserved words:    
+• program, endprogram  
+• declaring   
+• if, then, else, endif   
+• while, endwhile, dowhile, enddowhile  
+• loop, endloop, exit  
+• forcase, endforcase, incase, endincase, when, default, enddefault  
+• function, endfunction, return, in, inout, inandout  
+• and, or, not  
+• input, print  
+These words can not be used as variables.  
+The language constants are integral constants consisting of an optional sign and a sequence of numerals.  
 
 Starlet's grammar:
 1.	<program> ::= program id <block> endprogram
@@ -71,16 +71,16 @@ Starlet's grammar:
 38.	<optional-sign> ::= ε | <add-oper>
 
 
-NOTES:
-The compiler follows the semantic analysis as:
-• each function has at least one return in it
-• there is no return out of function
-• there is an exit only within loop-endloop loops.
+NOTES:  
+The compiler follows the semantic analysis as:  
+• each function has at least one return in it  
+• there is no return out of function  
+• there is an exit only within loop-endloop loops.  
 
-It also follows the following requirements:
-• any declared variable or function or process not declared more than once at the depth of the nest in which it is located
-• any variable, function, or process used has been declared, and indeed the way it is used (as a variable or as a function)
-• the parameters with which the functions are called are exactly the ones with which they are declared and in the correct order.
+It also follows the following requirements:  
+• any declared variable or function or process not declared more than once at the depth of the nest in which it is located  
+• any variable, function, or process used has been declared, and indeed the way it is used (as a variable or as a function)  
+• the parameters with which the functions are called are exactly the ones with which they are declared and in the correct order.  
 
 We have only integers.
 
